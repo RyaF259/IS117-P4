@@ -1,0 +1,131 @@
+/* DEVELOPER Ryan Fernandez, IS117-005, Fall 2024 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+	width: 1000px;
+	margin-top: 0;
+ 	margin-bottom: 0;
+  margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	background-color:coral;
+
+
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+
+
+footer {
+	background-color: white;
+	clear: both;
+
+}
+
+#mobile_menu {
+	display: none;
+}
+
+
+
+@media only screen and (max-width: 645px){
+
+header {
+	text-align: center;
+}
+section{
+	float:none;
+	width:95%;
+
+}
+aside{
+float: none;
+width: 96%;
+
+}
+
+
+#mobile_menu{
+	display: block;
+}
+
+}
+@media only screen and (max-width: 300px){
+	body{
+		font-size: 90%;
+	}
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+nav {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  background-color: blue;
+  padding: 10px 20px;
+  border-bottom: 3px solid black ;
+}
+.nav-link{
+  color: white;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 8px 10px 25px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+  text-align: right;
+}
+
+h3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:13%;
+}
+
+
+
+.mt-3 {
+  width: 100%;
+  background-size: 100% ;
+  color: white;
+}
+
+section{
+    float: none;
+    width: 96%;
+
+}
+section h4{
+  float: none;
+    width: 96%;
+}
+footer p {
+	text-align: center;
+	color: red;
+	padding: 1em 0;
+  position: sticky;
+}
